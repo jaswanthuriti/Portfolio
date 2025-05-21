@@ -47,14 +47,14 @@ const Intro = () => {
                     <div className="relative h-[200px] w-[200px] sm:h-[250px] sm:w-[250px] rounded-full overflow-hidden">
                         {/* White border around image */}
                         <div className="absolute inset-0 rounded-full border-4 border-white z-10"></div>
-                        
                         <Image
                             ref={ref}
-                            className="object-cover"
-                            src="/images/profile.jpg"
-                            fill
-                            priority
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+
+                            src="/images/profile1.jpg"
+                            width={300}
+                            height={300}
+                            sizes="(max-width: 768px) 100vw, 800px"
+                            priority={true}
                             alt="Jaswanth Uriti - Full Stack Developer"
                         />
                     </div>
