@@ -13,6 +13,7 @@ const nextConfig = {
     reactStrictMode: false,
 };
 
+// Only run setupDevPlatform in development
 if (process.env.NODE_ENV === "development") {
     await setupDevPlatform();
 }
