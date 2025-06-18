@@ -251,7 +251,7 @@ export const videos = [
     // Banano Blockchain
     [
         {
-            video: "https://youtu.be/zs1Nq2s_uy4?si=EuYO_DyvYbk8MxrM",
+            video: "",
             alt: "Youtube Demo",
         },
     ],
@@ -263,7 +263,7 @@ export const projectsData = [
         tech: ["Java", "JSP", "Agile", "HTML", "CSS", "Postgre SQL", "Apache Tomcat",],
         description: `Engineered a high-performance Conference Management System leveraging JavaScript, HTML5, and CSS3, delivering automated review workflows and real-time submission tracking. Optimized PostgreSQL database architecture reduced CRUD operation complexity by 30%, while dynamic scheduling interfaces and streamlined registration processes accelerated event organization by 60%. Implemented responsive design patterns to enhance participant engagement and system usability.`,
         codeURL: "https://github.com/jaswanthuriti/Conference-Management-System",
-        videoDemoURL: "https://youtu.be/-3m2_wHWXf4?si=Tl90BJCX7S2MKHF2",
+        videoDemoURL: "https://github.com/jaswanthuriti/Conference-Management-System",
         carouselImage: projectImages[1],
     },
     {
@@ -274,7 +274,7 @@ export const projectsData = [
         It suggests medications based on the generated risk factors. Additionally, an AI chatbot provides tailored medication recommendations 
         through risk analysis. This innovative approach significantly enhances disease prediction and treatment guidance.`,
         codeURL: "https://github.com/jaswanthuriti/Heart-Disease-Prediction",
-        videoDemoURL: "https://youtu.be/tSBAag6lAQo?si=LeJToyAM0wXCZj2i",
+        videoDemoURL: "https://github.com/jaswanthuriti/Heart-Disease-Prediction",
         carouselImage: projectImages[0],
     },
     {
@@ -312,7 +312,7 @@ export const projectsData = [
         ],
         description: ` The weather application built with React that delivers real-time weather data through OpenWeatherMap API. This responsive app offers instant city searches worldwide, providing comprehensive weather information including temperature, humidity, and wind conditions in a clean, intuitive interface. Built with React, Vite, and Tailwind CSS for optimal performance and user experience.`,
         codeURL: "https://github.com/jaswanthuriti/Basic-Weather-App",
-        videoDemoURL: "https://youtu.be/zs1Nq2s_uy4?si=EuYO_DyvYbk8MxrM",
+        videoDemoURL: "https://jaswanthuriti.github.io/Basic-Weather-App/",
         carouselImage: projectImages[3],
     },
 ] as const;
